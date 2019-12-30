@@ -1,0 +1,34 @@
+{
+    "editor.minimap.enabled": false,
+    "editor.fontSize": 14.5,
+    "workbench.colorCustomizations": {
+        "editorCursor.foreground": "#DB0000"
+    },
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.suggestSelection": "first",
+    "window.menuBarVisibility": "toggle",
+    "extensions.ignoreRecommendations": true,
+    "explorer.confirmDelete": false,
+    "window.zoomLevel": 0,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "atomKeymap.promptV3Features": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.formatOnPaste": true,
+    "workbench.activityBar.visible": true,
+    "workbench.colorTheme": "Sublime Monokai",
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "vim.useSystemClipboard": true,
+    "telemetry.enableCrashReporter": false,
+    "telemetry.enableTelemetry": false,
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "files.autoSave": "onWindowChange",
+    "workbench.statusBar.visible": true,
+    "editor.fontFamily": "'monospace', monospace, 'Droid Sans Fallback'"
+}
