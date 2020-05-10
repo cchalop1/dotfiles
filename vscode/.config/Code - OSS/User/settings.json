@@ -26,9 +26,13 @@
     "telemetry.enableCrashReporter": false,
     "telemetry.enableTelemetry": false,
     "[javascript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
+        "editor.defaultFormatter": "vscode.typescript-language-features"
     },
     "files.autoSave": "onWindowChange",
     "workbench.statusBar.visible": true,
-    "editor.fontFamily": "'monospace', monospace, 'Droid Sans Fallback'"
+    "editor.fontFamily": "'monospace', monospace, 'Droid Sans Fallback'",
+    "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: WebKit, IndentWidth: 4, TabWidth: 4, ColumnLimit: 80 }",
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    }
 }
