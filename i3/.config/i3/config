@@ -194,4 +194,3 @@ client.focused          #d9d9d9 #cecece #000000 #d9d9d9 #ffaaff
 for_window [class="^.*"] border pixel 2
 
 exec_always --no-startup-id "killall polybar ; polybar -r default"
-exec_always --no-startup-id feh --bg-fill ~/Downloads/cyberpunk.jpg
