@@ -21,7 +21,6 @@
         "**/.settings": true,
         "**/.factorypath": true
     },
-    "vim.useSystemClipboard": true,
     "telemetry.enableCrashReporter": false,
     "telemetry.enableTelemetry": false,
     "[javascript]": {
