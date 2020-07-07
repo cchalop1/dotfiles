@@ -5,13 +5,13 @@
         "editorCursor.foreground": "#DB0000"
     },
     "workbench.startupEditor": "newUntitledFile",
+    "vim.useSystemClipboard": true,
     "editor.suggestSelection": "first",
     "window.menuBarVisibility": "toggle",
     "extensions.ignoreRecommendations": true,
     "explorer.confirmDelete": false,
     "window.zoomLevel": 0,
     "diffEditor.ignoreTrimWhitespace": false,
-    "atomKeymap.promptV3Features": true,
     "editor.multiCursorModifier": "ctrlCmd",
     "editor.formatOnPaste": true,
     "workbench.activityBar.visible": false,
@@ -35,5 +35,5 @@
         "editor.defaultFormatter": "vscode.html-language-features"
     },
     "workbench.sideBar.location": "right",
-    "workbench.colorTheme": "Sublime Monokai"
+    "workbench.colorTheme": "Monokai"
 }
