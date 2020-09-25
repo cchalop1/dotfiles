@@ -13,7 +13,6 @@
     "window.zoomLevel": 0,
     "diffEditor.ignoreTrimWhitespace": false,
     "editor.multiCursorModifier": "ctrlCmd",
-    "editor.formatOnPaste": true,
     "workbench.activityBar.visible": false,
     "files.exclude": {
         "**/.classpath": true,
@@ -35,5 +34,31 @@
         "editor.defaultFormatter": "vscode.html-language-features"
     },
     "workbench.sideBar.location": "right",
-    "workbench.colorTheme": "Monokai"
+    "workbench.colorTheme": "Monokai",
+    "[typescript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "javascript.format.semicolons": "insert",
+    "editor.detectIndentation": false,
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "ponicode.token": "4c7e543a-628b-4752-ba96-11b6e35ed9d9",
+    "ponicode.watchMode": false,
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [
+            80
+        ],
+        "editor.selectionHighlight": false,
+        "editor.suggest.snippetsPreventQuickSuggestions": false,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": false
+    },
+    "liveServer.settings.donotShowInfoMsg": true
 }
