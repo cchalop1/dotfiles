@@ -9,6 +9,11 @@ zmodload zsh/complist
 compinit
 _comp_options+=(globdots)
 
+HISTFILE=~/.zsh_history
+HISTSIZE=1000
+SAVEHIST=1000
+setopt appendhistory
+
 alias l='ls --color=auto -la'
 alias ex-display='xrandr --output eDP1 --auto --output HDMI2 --auto'
-source /home/cchalop1/Programs/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
