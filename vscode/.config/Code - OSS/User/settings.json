@@ -33,7 +33,7 @@
     "[html]": {
         "editor.defaultFormatter": "vscode.html-language-features"
     },
-    "workbench.sideBar.location": "right",
+    "workbench.sideBar.location": "left",
     "workbench.colorTheme": "Monokai",
     "[typescript]": {
         "editor.defaultFormatter": "vscode.typescript-language-features"
@@ -48,6 +48,8 @@
     "[javascriptreact]": {
         "editor.defaultFormatter": "vscode.typescript-language-features"
     },
+    "terminal.integrated.fontWeight": "600",
+    "terminal.integrated.cursorStyle" : "line",
     "[dart]": {
         "editor.formatOnSave": true,
         "editor.formatOnType": true,
@@ -61,5 +63,19 @@
         "editor.wordBasedSuggestions": false
     },
     "liveServer.settings.donotShowInfoMsg": true,
-    "debug.allowBreakpointsEverywhere": true
+    "debug.allowBreakpointsEverywhere": true,
+    "prettier.tabWidth": 4,
+    "[vue]": {
+        "editor.defaultFormatter": "octref.vetur"
+    },
+    "vim.useCtrlKeys": true,
+    "terminal.integrated.fontFamily": "'monospace', monospace, 'Droid Sans Fallback'",
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "C_Cpp.updateChannel": "Insiders",
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "breadcrumbs.enabled": false
 }
