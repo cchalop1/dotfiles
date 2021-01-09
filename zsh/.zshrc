@@ -17,5 +17,3 @@ setopt appendhistory
 
 alias l='ls --color=auto -la'
 alias ex-display='xrandr --output eDP1 --auto --output HDMI2 --auto'
-source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source /usr/share/nvm/init-nvm.sh
