@@ -1,6 +1,5 @@
 {
     "editor.minimap.enabled": false,
-    "editor.fontSize": 14.5,
     "workbench.colorCustomizations": {
         "editorCursor.foreground": "#DB0000"
     },
@@ -77,5 +76,6 @@
     "[jsonc]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    "breadcrumbs.enabled": false
+    "breadcrumbs.enabled": false,
+    "editor.fontSize": 15
 }
