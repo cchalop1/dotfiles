@@ -8,7 +8,6 @@ set nobackup
 set undodir=~/.config/nvim/undofile
 set undofile
 set scrolloff=8
-set colorcolumn=80
 
 call plug#begin('~/.vim/plugged')
 
@@ -20,7 +19,7 @@ Plug 'patstockwell/vim-monokai-tasty'
 call plug#end()
 
 colorscheme vim-monokai-tasty
-highlight Normal guibg=none
+highlight Normal ctermfg=none ctermbg=none
 
 let mapleader = " "
 nnoremap <leader>ff <cmd>lua require('telescope.builtin').find_files()<cr>
