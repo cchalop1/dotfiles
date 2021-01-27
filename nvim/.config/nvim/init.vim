@@ -7,7 +7,7 @@ set noswapfile
 set nobackup
 set undodir=~/.config/nvim/undofile
 set undofile
-set scrolloff=8
+set scrolloff=12
 
 call plug#begin('~/.vim/plugged')
 
@@ -187,3 +187,9 @@ nnoremap <silent><nowait> <space>j  :<C-u>CocNext<CR>
 nnoremap <silent><nowait> <space>k  :<C-u>CocPrev<CR>
 " Resume latest coc list.
 nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>
+
+set cursorline
+hi cursorline cterm=none term=none
+autocmd WinEnter * setlocal cursorline
+autocmd WinLeave * setlocal nocursorline
+highlight CursorLine guibg=#303000 ctermbg=234
