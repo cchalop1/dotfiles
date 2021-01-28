@@ -188,6 +188,8 @@ nnoremap <silent><nowait> <space>k  :<C-u>CocPrev<CR>
 " Resume latest coc list.
 nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>
 
+nmap <space>e :CocCommand explorer<CR>
+
 set cursorline
 hi cursorline cterm=none term=none
 autocmd WinEnter * setlocal cursorline
