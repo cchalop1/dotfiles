@@ -15,5 +15,11 @@ HISTSIZE=1000
 SAVEHIST=1000
 setopt appendhistory
 
-alias l='ls --color=auto -la'
+source /usr/share/fzf/completion.zsh
+source /usr/share/fzf/key-bindings.zsh
+
+export EDITOR=nvim
+
+alias l='exa -la'
+alias vi='nvim'
 alias ex-display='xrandr --output eDP1 --auto --output HDMI2 --auto'
