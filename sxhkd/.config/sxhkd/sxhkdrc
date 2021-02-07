@@ -38,6 +38,9 @@ super + y
 super + g
 	bspc node -s biggest.window
 
+super + Tab
+    bspc desktop -f {next, prev}
+
 #
 # state/flags
 #
