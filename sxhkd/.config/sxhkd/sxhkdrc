@@ -90,6 +90,8 @@ super + {_,shift + }{1-9,0}
 #
 # preselect
 #
+alt + shift + {Left,Right}
+    id=$(bspc query --nodes --node); bspc node --to-desktop {prev,next}; bspc desktop --focus next; bspc node --focus ${id}
 
 # preselect the direction
 super + ctrl + {h,j,k,l}
