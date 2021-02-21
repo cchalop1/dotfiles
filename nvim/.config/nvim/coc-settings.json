@@ -16,5 +16,6 @@
             "open"
         ],
         "v": "open:vsplit"
-    }
+    },
+    "clangd.path": "/home/cchalop1/.config/coc/extensions/coc-clangd-data/install/11.0.0/clangd_11.0.0/bin/clangd"
 }
