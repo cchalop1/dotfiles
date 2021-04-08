@@ -13,7 +13,6 @@ call plug#begin('~/.vim/plugged')
 
 Plug 'nvim-lua/popup.nvim'
 Plug 'nvim-lua/plenary.nvim'
-Plug 'jiangmiao/auto-pairs'
 Plug 'patstockwell/vim-monokai-tasty'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'HerringtonDarkholme/yats.vim' " TS Syntax
@@ -212,6 +211,7 @@ let g:fzf_action = {
 let g:fzf_history_dir = '~/.local/share/fzf-history'
 
 map <C-f> :Files<CR>
+map <C-g> :Rg<CR>
 map <leader>b :Buffers<CR>
 nnoremap <leader>g :Rg<CR>
 nnoremap <leader>t :Tags<CR>
