@@ -7,7 +7,7 @@ set noswapfile
 set nobackup
 set undodir=~/.config/nvim/undofile
 set undofile
-set scrolloff=12
+set scrolloff=5
 
 call plug#begin('~/.vim/plugged')
 
